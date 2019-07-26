@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapBox</string>
+    <string name="action_MapNew">Mapa nuevo</string>
+
+
+    <string name="key_Token">sk.eyJ1Ijoicm9xdWVjYXN0cm8iLCJhIjoiY2p5ZWw2YmM5MDBzdzNtcGt6bHl5NmduNSJ9.wy8yXgG124yteR6O467CAg</string>
+</resources>

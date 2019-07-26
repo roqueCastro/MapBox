@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mapbox.MainActivity">
+    <item
+        android:id="@+id/action_MapNew"
+        android:orderInCategory="100"
+        android:title="@string/action_MapNew"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_MarAni"
+        android:orderInCategory="100"
+        android:title="Mapa marcador animado"
+        app:showAsAction="never" />
+</menu>
