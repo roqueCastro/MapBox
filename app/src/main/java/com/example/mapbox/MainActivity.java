@@ -220,24 +220,25 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_MapNew) {
-            ActivityNew();
+            Intent ma = new Intent(getApplicationContext(), AddRainFallStyleActivity.class);
+            newInten(ma);
             return true;
         }
         if (id == R.id.action_MarAni) {
-            ActivityNew(AnimarMarker.class);
+            Intent ma = new Intent(getApplicationContext(), AnimarMarker.class);
+            newInten(ma);
+            return true;
+        }
+        if (id == R.id.action_Ubi) {
+            Intent ma = new Intent(getApplicationContext(), UbicacionRealTime.class);
+            newInten(ma);
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
 
-    private void ActivityNew(Class<AnimarMarker> animarMarkerClass) {
-        Intent mapO = new Intent(getApplicationContext(), animarMarkerClass);
-        startActivity(mapO);
-    }
-
-    private void ActivityNew() {
-        Intent mapO = new Intent(getApplicationContext(), AddRainFallStyleActivity.class);
-        startActivity(mapO);
+    private void newInten(Intent ma) {
+        startActivity(ma);
     }
 }
