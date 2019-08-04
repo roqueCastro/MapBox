@@ -229,8 +229,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             newInten(ma);
             return true;
         }
-        if (id == R.id.action_Ubi) {
+        if (id == R.id.action_Ruta) {
             Intent ma = new Intent(getApplicationContext(), RutaSerpiente.class);
+            newInten(ma);
+            return true;
+        }
+        if (id == R.id.action_Ubi) {
+            Intent ma = new Intent(getApplicationContext(), UbicacionRealTime.class);
             newInten(ma);
             return true;
         }

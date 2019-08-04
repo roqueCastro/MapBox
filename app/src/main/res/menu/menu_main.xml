@@ -13,6 +13,11 @@
         android:title="Mapa marcador animado"
         app:showAsAction="never" />
     <item
+        android:id="@+id/action_Ruta"
+        android:orderInCategory="100"
+        android:title="Creacion de rutas"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_Ubi"
         android:orderInCategory="100"
         android:title="Mapa ubicacion"
