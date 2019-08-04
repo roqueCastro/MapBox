@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             return true;
         }
         if (id == R.id.action_Ubi) {
-            Intent ma = new Intent(getApplicationContext(), UbicacionRealTime.class);
+            Intent ma = new Intent(getApplicationContext(), RutaSerpiente.class);
             newInten(ma);
             return true;
         }
